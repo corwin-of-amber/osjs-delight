@@ -1,0 +1,35 @@
+{
+  "name": "osjs-delight",
+  "version": "0.1.0",
+  "description": "OS.js v3 Hacking Workbench",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "watch": "parcel watch src/index.html"
+  },
+  "keywords": [
+    "osjs",
+    "standalone",
+    "lightweight"
+  ],
+  "author": "Anders Evenrud <andersevenrud@gmail.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "hyperapp": "^1.2.10",
+    "typeface-roboto": "0.0.75",
+    "sass": "^1.24.1"
+  },
+  "dependencies": {
+    "@osjs/client": "file:packages/osjs-client",
+    "@osjs/dialogs": "^3.0.15",
+    "@osjs/freedesktop-sounds": "^3.0.1",
+    "@osjs/gnome-icons": "^4.0.2",
+    "@osjs/gui": "file:packages/osjs-gui",
+    "@osjs/panels": "file:packages/osjs-panels",
+    "@osjs/standard-theme": "^4.0.6"
+  }
+}
