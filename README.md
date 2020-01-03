@@ -1,6 +1,6 @@
 # osjs-delight
 
-This repo is designed to help with the basic scaffolding of developing for OS.js.
+This repo is designed to help with the basic scaffolding of OS.js.
 Based on [os-js/OS.js](https://github.com/os-js/OS.js), it offers a quick peek into the workings of OS.js's core client modules:
  * [@osjs/client](https://github.com/os-js/osjs-client) – `Core` and core providers.
    (`CoreServiceProvider`, `DesktopServiceProvider`, `AuthServiceProvider`, `VFSServiceProvider` and a couple of others).
@@ -8,7 +8,7 @@ Based on [os-js/OS.js](https://github.com/os-js/OS.js), it offers a quick peek i
  * [@osjs/panels](https://github.com/os-js/osjs-panels) – `PanelServiceProvider`, responsible for the global menu,
    task bar, and tray.
  
-This version includes these packages as Git submodules, and relies on [Parcel](https://parceljs.org)
+This version includes these packages as Git submodules, and relies on [Parcel](https://parceljs.org)✨
 for fast and intuitive bundle creation directly from source, including source maps for best developer
 experience.
 
