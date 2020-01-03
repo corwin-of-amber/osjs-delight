@@ -26,7 +26,6 @@
   "dependencies": {
     "@osjs/client": "file:packages/osjs-client",
     "@osjs/dialogs": "^3.0.15",
-    "@osjs/event-emitter": "^1.0.8",
     "@osjs/freedesktop-sounds": "^3.0.1",
     "@osjs/gnome-icons": "^4.0.2",
     "@osjs/gui": "file:packages/osjs-gui",

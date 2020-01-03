@@ -55,6 +55,8 @@ import * as config from './config.js';
 
 import '@osjs/gui/index.scss';
 
+import SampleApp from './sample-app';
+
 
 const init = () => {
   const osjs = new Core(config, {});
@@ -77,10 +79,8 @@ const init = () => {
 
   // Launch sample app on startup
   osjs.on('osjs/core:started', () => {
-      var proc = osjs.make("osjs/application", {metadata: {name: 'Sample'}});
-      var w = proc.createWindow({id: 'Sample', title: "Sample Application",
-          dimension: { width: 500, height: 300 }});
-      w.render();
+      let proc = new SampleApp(osjs);
+      proc.start();
       window.sampleApp = proc;
   });
 };
