@@ -9,7 +9,7 @@ Based on [os-js/OS.js](https://github.com/os-js/OS.js), it offers a quick peek i
    task bar, and tray.
  
 This version includes these packages as Git submodules, and relies on [Parcel](https://parceljs.org)✨
-for fast and intuitive bundle creation directly from source, including source maps for best developer
+for fast and intuitive bundle creation directly from source, including source maps for better developer
 experience.
 
 ## Quick start
