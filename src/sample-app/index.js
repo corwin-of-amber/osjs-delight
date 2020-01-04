@@ -21,6 +21,15 @@ export class SampleApp {
             dimension: { width: 500, height: 300 }
         });
         w.render();
+
+        var div = document.createElement('div');
+        w.$content.appendChild(div);
+
+        w.$content.addEventListener('click', () => {
+            var p = document.createElement('p');
+            p.textContent = new Date;
+            div.appendChild(p);
+        });
     }
 
 }
