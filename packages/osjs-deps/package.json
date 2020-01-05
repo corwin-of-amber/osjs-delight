@@ -1,0 +1,16 @@
+{
+  "name": "osjs-deps",
+  "version": "3.1.14",
+  "description": "Meta-package for @osjs/client dependencies",
+  "dependencies": {
+    "@osjs/event-emitter": "^1.0.8",
+    "@osjs/common": "^3.0.3",
+    "css-mediaquery": "^0.1.2",
+    "dateformat": "^3.0.3",
+    "deepmerge": "^3.2.0",
+    "hyperapp": "^1.2.9",
+    "simplejsonconf": "^2.0.5"
+  },
+  "author": "Corwin of Amber <corwin.amber@gmail.com>",
+  "license": "MIT"
+}
