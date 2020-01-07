@@ -9,8 +9,9 @@
     "dateformat": "^3.0.3",
     "deepmerge": "^3.2.0",
     "hyperapp": "^1.2.9",
-    "simplejsonconf": "^2.0.5"
+    "simplejsonconf": "^2.0.6"
   },
   "author": "Corwin of Amber <corwin.amber@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "_comment": "Run `npm dedupe` to flatten deps"
 }

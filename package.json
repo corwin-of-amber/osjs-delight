@@ -32,5 +32,6 @@
     "@osjs/panels": "file:packages/osjs-panels",
     "@osjs/standard-theme": "^4.0.6",
     "osjs-deps": "file:packages/osjs-deps"
-  }
+  },
+  "_comment": "Run `npm dedupe` to flatten deps"
 }
