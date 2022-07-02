@@ -1,6 +1,6 @@
 {
   "name": "osjs-delight",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OS.js v3 Hacking Workbench",
   "main": "src/index.js",
   "scripts": {
@@ -20,8 +20,8 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/runtime": "^7.5.5",
     "hyperapp": "^1.2.10",
-    "typeface-roboto": "0.0.75",
-    "sass": "^1.24.1"
+    "sass": "^1.24.1",
+    "typeface-roboto": "^1.1.13"
   },
   "dependencies": {
     "@osjs/client": "file:packages/osjs-client",
@@ -30,7 +30,7 @@
     "@osjs/gnome-icons": "^4.0.2",
     "@osjs/gui": "file:packages/osjs-gui",
     "@osjs/panels": "file:packages/osjs-panels",
-    "@osjs/standard-theme": "^4.0.6",
+    "@osjs/standard-theme": "^4.0.9",
     "osjs-deps": "file:packages/osjs-deps"
   },
   "_comment": "Run `npm dedupe` to flatten deps"

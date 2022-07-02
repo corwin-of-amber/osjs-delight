@@ -41,10 +41,10 @@ export default {
       password: 'demo'
     }
   },
-  standalone: true,
-  packages: {
-    manifest: false,
-    metadata: require('./metadata.json')
+  locale: {
+    language: 'en_EN',
+    rtl: []
   },
+  standalone: true,
   development: true   /* OS.js developer tools */
 };
